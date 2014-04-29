@@ -45,7 +45,9 @@ double GetDifficulty(const CBlockIndex* blockindex)
 
 double GetPoWMHashPS()
 {
-    if (pindexBest->nHeight >= LAST_POW_BLOCK)
+    //This was modified to fix an early end of POW mining.
+
+    if ((pindexBest->nHeight >= LAST_POW_BLOCK && pindexBest->nHeight < JUMP_TO_POW_BLOCK) || (pindexBest->nHeight >= REAL_LAST_POW_BLOCK))
         return 0;
 
     int nPoWInterval = 72;
