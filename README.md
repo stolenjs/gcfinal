@@ -1,32 +1,21 @@
+GoodCoin official development tree
 
-GOODCoin official development tree
+GoodCoin is a Pow/PoS-based cryptocurrency based on blackcoin and ppcoin.
 
-GOODCoin is a PoS-based cryptocurrency.
 
-Development process
-===========================
 
-Developers work in their own trees, then submit pull requests when
-they think their feature or bug fix is ready.
+1.0.1
+================
+-fix early end of POW mining
+-POW mining jump set at block 19295
+-added new goodcoin logos
+-fixed goodcoin translations
 
-The patch will be accepted if there is broad consensus that it is a
-good thing.  Developers should expect to rework and resubmit patches
-if they don't match the project's coding conventions (see coding.txt)
-or are controversial.
+1.0.0
+================
+-Added goodcoin reward system
+-Added goodcoin node
+-Added goodcoin logos
+-minimum stake weight changed to 8 hours
+-coin maturity set at 100 + 10 blocks
 
-The master branch is regularly built and tested, but is not guaranteed
-to be completely stable. Tags are regularly created to indicate new
-official, stable release versions of GOODCoin.
-
-Feature branches are created when there are major new features being
-worked on by several people.
-
-From time to time a pull request will become outdated. If this occurs, and
-the pull is no longer automatically mergeable; a comment on the pull will
-be used to issue a warning of closure. The pull will be closed 15 days
-after the warning if action is not taken by the author. Pull requests closed
-in this manner will have their corresponding issue labeled 'stagnant'.
-
-Issues with no commits will be given a similar warning, and closed after
-15 days from their last activity. Issues closed in this manner will be 
-labeled 'stale'.

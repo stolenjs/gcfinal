@@ -11,7 +11,7 @@
 #include <QDateTime>
 #include <QTimer>
 
-static const int64_t nClientStartupTime = GetTime();
+static const int64 nClientStartupTime = GetTime();
 
 ClientModel::ClientModel(OptionsModel *optionsModel, QObject *parent) :
     QObject(parent), optionsModel(optionsModel),
@@ -53,7 +53,7 @@ QDateTime ClientModel::getLastBlockDate() const
     if (pindexBest)
         return QDateTime::fromTime_t(pindexBest->GetBlockTime());
     else
-        return QDateTime::fromTime_t(1393221600); // Genesis block's time
+        return QDateTime::fromTime_t(1360105017); // Genesis block's time
 }
 
 void ClientModel::updateTimer()

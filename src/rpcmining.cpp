@@ -22,20 +22,16 @@ Value getsubsidy(const Array& params, bool fHelp)
             "getsubsidy [nTarget]\n"
             "Returns proof-of-work subsidy value for the specified value of target.");
 
-    unsigned int nBits = 0;
+    //unsigned int nBits = 0;
 
     if (params.size() != 0)
     {
         CBigNum bnTarget(uint256(params[0].get_str()));
-        nBits = bnTarget.GetCompact();
+    
     }
-    else
-    {
-        nBits = GetNextTargetRequired(pindexBest, false);
-    }
-
     return (uint64_t)GetProofOfWorkReward(0, pindexBest->nHeight);
 }
+
 
 Value getmininginfo(const Array& params, bool fHelp)
 {
@@ -44,7 +40,7 @@ Value getmininginfo(const Array& params, bool fHelp)
             "getmininginfo\n"
             "Returns an object containing mining-related information.");
 
-    uint64_t nMinWeight = 0, nMaxWeight = 0, nWeight = 0;
+    uint64 nMinWeight = 0, nMaxWeight = 0, nWeight = 0;
     pwalletMain->GetStakeWeight(*pwalletMain, nMinWeight, nMaxWeight, nWeight);
 
     Object obj, diff, weight;
@@ -57,7 +53,7 @@ Value getmininginfo(const Array& params, bool fHelp)
     diff.push_back(Pair("search-interval",      (int)nLastCoinStakeSearchInterval));
     obj.push_back(Pair("difficulty",    diff));
 
-    obj.push_back(Pair("blockvalue",    (uint64_t)GetProofOfWorkReward(0, pindexBest->nHeight)));
+    obj.push_back(Pair("blockvalue",    (uint64_t)GetProofOfWorkReward(0,pindexBest->nHeight)));
     obj.push_back(Pair("netmhashps",     GetPoWMHashPS()));
     obj.push_back(Pair("netstakeweight", GetPoSKernelPS()));
     obj.push_back(Pair("errors",        GetWarnings("statusbar")));
@@ -80,10 +76,10 @@ Value getstakinginfo(const Array& params, bool fHelp)
             "getstakinginfo\n"
             "Returns an object containing staking-related information.");
 
-    uint64_t nMinWeight = 0, nMaxWeight = 0, nWeight = 0;
+    uint64 nMinWeight = 0, nMaxWeight = 0, nWeight = 0;
     pwalletMain->GetStakeWeight(*pwalletMain, nMinWeight, nMaxWeight, nWeight);
 
-    uint64_t nNetworkWeight = GetPoSKernelPS();
+    uint64 nNetworkWeight = GetPoSKernelPS();
     bool staking = nLastCoinStakeSearchInterval && nWeight;
     int nExpectedTime = staking ? (nTargetSpacing * nNetworkWeight / nWeight) : -1;
 
@@ -117,11 +113,12 @@ Value getworkex(const Array& params, bool fHelp)
         );
 
     if (vNodes.empty())
-        throw JSONRPCError(-9, "GOODCoin is not connected!");
+        throw JSONRPCError(-9, "GoodCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(-10, "GOODCoin is downloading blocks...");
+        throw JSONRPCError(-10, "GoodCoin is downloading blocks...");
 
+    //if (pindexBest->nHeight >= LAST_POW_BLOCK)
     if ((pindexBest->nHeight >= LAST_POW_BLOCK && pindexBest->nHeight < JUMP_TO_POW_BLOCK) || (pindexBest->nHeight >= REAL_LAST_POW_BLOCK))
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
 
@@ -135,7 +132,7 @@ Value getworkex(const Array& params, bool fHelp)
         // Update block
         static unsigned int nTransactionsUpdatedLast;
         static CBlockIndex* pindexPrev;
-        static int64_t nStart;
+        static int64 nStart;
         static CBlock* pblock;
         if (pindexPrev != pindexBest ||
             (nTransactionsUpdated != nTransactionsUpdatedLast && GetTime() - nStart > 60))
@@ -160,7 +157,7 @@ Value getworkex(const Array& params, bool fHelp)
         }
 
         // Update nTime
-        pblock->nTime = max(pindexPrev->GetPastTimeLimit()+1, GetAdjustedTime());
+        pblock->nTime = max(pindexPrev->GetMedianTimePast()+1, GetAdjustedTime());
         pblock->nNonce = 0;
 
         // Update nExtraNonce
@@ -251,11 +248,12 @@ Value getwork(const Array& params, bool fHelp)
             "If [data] is specified, tries to solve the block and returns true if it was successful.");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "GOODCoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "GoodCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "GOODCoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "GoodCoin is downloading blocks...");
 
+    //if (pindexBest->nHeight >= LAST_POW_BLOCK)
     if ((pindexBest->nHeight >= LAST_POW_BLOCK && pindexBest->nHeight < JUMP_TO_POW_BLOCK) || (pindexBest->nHeight >= REAL_LAST_POW_BLOCK))
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
 
@@ -269,7 +267,7 @@ Value getwork(const Array& params, bool fHelp)
         // Update block
         static unsigned int nTransactionsUpdatedLast;
         static CBlockIndex* pindexPrev;
-        static int64_t nStart;
+        static int64 nStart;
         static CBlock* pblock;
         if (pindexPrev != pindexBest ||
             (nTransactionsUpdated != nTransactionsUpdatedLast && GetTime() - nStart > 60))
@@ -395,11 +393,12 @@ Value getblocktemplate(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "GOODCoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "GoodCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "GOODCoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "GoodCoin is downloading blocks...");
 
+    //if (pindexBest->nHeight >= LAST_POW_BLOCK)
     if ((pindexBest->nHeight >= LAST_POW_BLOCK && pindexBest->nHeight < JUMP_TO_POW_BLOCK) || (pindexBest->nHeight >= REAL_LAST_POW_BLOCK))
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
 
@@ -408,7 +407,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
     // Update block
     static unsigned int nTransactionsUpdatedLast;
     static CBlockIndex* pindexPrev;
-    static int64_t nStart;
+    static int64 nStart;
     static CBlock* pblock;
     if (pindexPrev != pindexBest ||
         (nTransactionsUpdated != nTransactionsUpdatedLast && GetTime() - nStart > 5))
@@ -502,7 +501,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
     result.push_back(Pair("coinbaseaux", aux));
     result.push_back(Pair("coinbasevalue", (int64_t)pblock->vtx[0].vout[0].nValue));
     result.push_back(Pair("target", hashTarget.GetHex()));
-    result.push_back(Pair("mintime", (int64_t)pindexPrev->GetPastTimeLimit()+1));
+    result.push_back(Pair("mintime", (int64_t)pindexPrev->GetMedianTimePast()+1));
     result.push_back(Pair("mutable", aMutable));
     result.push_back(Pair("noncerange", "00000000ffffffff"));
     result.push_back(Pair("sigoplimit", (int64_t)MAX_BLOCK_SIGOPS));

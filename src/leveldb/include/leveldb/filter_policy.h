@@ -50,7 +50,7 @@ class FilterPolicy {
 };
 
 // Return a new filter policy that uses a bloom filter with approximately
-// the specified number of bits per key.  A good value for bits_per_key
+// the specified number of bits per key.  A GOOD value for bits_per_key
 // is 10, which yields a filter with ~ 1% false positive rate.
 //
 // Callers must delete the result after any database that is using the

@@ -5,23 +5,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GOODCoin</source>
-        <translation>About GOODCoin</translation>
+        <source>About GoodCoin</source>
+        <translation>About GoodCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GOODCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GOODCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;GoodCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GoodCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GOODCoin developers</source>
-        <translation type="unfinished"></translation>
+Copyright © 2012-2014 The NovaCoin developers</source>
+        <translation>Copyright © 2009-2014 The Bitcoin developers
+Copyright © 2012-2014 The NovaCoin developers</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+14"/>
         <source>
 This is experimental software.
 
@@ -65,8 +65,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your GOODCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your GOODCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your GoodCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your GoodCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GOODCoin address</source>
-        <translation>Sign a message to prove you own a GOODCoin address</translation>
+        <source>Sign a message to prove you own a GoodCoin address</source>
+        <translation>Sign a message to prove you own a GoodCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified GOODCoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified GOODCoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified GoodCoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified GoodCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -180,17 +180,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Repeat new passphrase</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>For staking only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="+35"/>
+        <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
@@ -200,7 +190,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Encrypt wallet</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
     </message>
@@ -250,49 +240,49 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation></translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+100"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Warning: The Caps Lock key is on!</translation>
     </message>
     <message>
-        <location line="-133"/>
-        <location line="+60"/>
+        <location line="-130"/>
+        <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Wallet encrypted</translation>
     </message>
     <message>
-        <location line="-58"/>
-        <source>GOODCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>GOODCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <location line="-56"/>
+        <source>GoodCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GoodCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
         <location line="+7"/>
-        <location line="+44"/>
+        <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
         <translation>Wallet encryption failed</translation>
     </message>
     <message>
-        <location line="-56"/>
+        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+50"/>
+        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
         <translation>The supplied passphrases do not match.</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-37"/>
         <source>Wallet unlock failed</source>
         <translation>Wallet unlock failed</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+12"/>
+        <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>The passphrase entered for the wallet decryption was incorrect.</translation>
@@ -311,17 +301,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+282"/>
+        <location filename="../bitcoingui.cpp" line="+277"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
     <message>
-        <location line="+251"/>
+        <location line="+239"/>
         <source>Synchronizing with network...</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
-        <location line="-319"/>
+        <location line="-303"/>
         <source>&amp;Overview</source>
         <translation>&amp;Overview</translation>
     </message>
@@ -376,9 +366,9 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Quit application</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Show information about GOODCoin</source>
-        <translation>Show information about GOODCoin</translation>
+        <location line="+4"/>
+        <source>Show information about GoodCoin</source>
+        <translation>Show information about GoodCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -411,7 +401,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Change Passphrase...</translation>
     </message>
     <message numerus="yes">
-        <location line="+259"/>
+        <location line="+245"/>
         <source>~%n block(s) remaining</source>
         <translation>
             <numerusform>~%n block remaining</numerusform>
@@ -424,27 +414,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Downloaded %1 of %2 blocks of transaction history (%3% done).</translation>
     </message>
     <message>
-        <location line="-256"/>
+        <location line="-244"/>
         <source>&amp;Export...</source>
         <translation>&amp;Export...</translation>
     </message>
     <message>
-        <location line="-64"/>
-        <source>Send coins to a GOODCoin address</source>
-        <translation>Send coins to a GOODCoin address</translation>
+        <location line="-60"/>
+        <source>Send coins to a GoodCoin address</source>
+        <translation>Send coins to a GoodCoin address</translation>
     </message>
     <message>
-        <location line="+47"/>
-        <source>Modify configuration options for GOODCoin</source>
-        <translation>Modify configuration options for GOODCoin</translation>
+        <location line="+45"/>
+        <source>Modify configuration options for GoodCoin</source>
+        <translation>Modify configuration options for GoodCoin</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+16"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Export the data in the current tab to a file</translation>
     </message>
     <message>
-        <location line="-14"/>
+        <location line="-12"/>
         <source>Encrypt or decrypt wallet</source>
         <translation>Encrypt or decrypt wallet</translation>
     </message>
@@ -459,7 +449,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Change the passphrase used for wallet encryption</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+8"/>
         <source>&amp;Debug window</source>
         <translation>&amp;Debug window</translation>
     </message>
@@ -474,9 +464,9 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Verify message...</translation>
     </message>
     <message>
-        <location line="-202"/>
-        <source>GOODCoin</source>
-        <translation>GOODCoin</translation>
+        <location line="-198"/>
+        <source>GoodCoin</source>
+        <translation>GoodCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -484,9 +474,9 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Wallet</translation>
     </message>
     <message>
-        <location line="+180"/>
-        <source>&amp;About GOODCoin</source>
-        <translation>&amp;About GOODCoin</translation>
+        <location line="+178"/>
+        <source>&amp;About GoodCoin</source>
+        <translation>&amp;About GoodCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -494,22 +484,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Show / Hide</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Unlock wallet</source>
-        <translation type="unfinished">Unlock wallet</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Lock Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Lock wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+35"/>
+        <location line="+42"/>
         <source>&amp;File</source>
         <translation>&amp;File</translation>
     </message>
@@ -519,12 +494,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Settings</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+7"/>
         <source>&amp;Help</source>
         <translation>&amp;Help</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Tabs toolbar</translation>
     </message>
@@ -542,15 +517,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>GOODCoin client</source>
-        <translation>GOODCoin client</translation>
+        <source>GoodCoin client</source>
+        <translation>GoodCoin client</translation>
     </message>
     <message numerus="yes">
-        <location line="+75"/>
-        <source>%n active connection(s) to GOODCoin network</source>
+        <location line="+69"/>
+        <source>%n active connection(s) to GoodCoin network</source>
         <translation>
-            <numerusform>%n active connection to GOODCoin network</numerusform>
-            <numerusform>%n active connections to GOODCoin network</numerusform>
+            <numerusform>%n active connection to GoodCoin network</numerusform>
+            <numerusform>%n active connections to GoodCoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -559,7 +534,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Downloaded %1 blocks of transaction history.</translation>
     </message>
     <message>
-        <location line="+413"/>
+        <location line="+402"/>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation></translation>
     </message>
@@ -584,7 +559,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation></translation>
     </message>
     <message numerus="yes">
-        <location line="-403"/>
+        <location line="-392"/>
         <source>%n second(s) ago</source>
         <translation>
             <numerusform>%n second ago</numerusform>
@@ -592,22 +567,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         </translation>
     </message>
     <message>
-        <location line="-312"/>
-        <source>About GOODCoin card</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show information about GOODCoin card</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+18"/>
+        <location line="-279"/>
         <source>&amp;Unlock Wallet...</source>
         <translation></translation>
     </message>
+    <message>
+        <location line="+1"/>
+        <source>Unlock wallet for staking</source>
+        <translation></translation>
+    </message>
     <message numerus="yes">
-        <location line="+297"/>
+        <location line="+282"/>
         <source>%n minute(s) ago</source>
         <translation>
             <numerusform>%n minute ago</numerusform>
@@ -687,21 +657,21 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GOODCoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid GOODCoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GoodCoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid GoodCoin address or malformed URI parameters.</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+24"/>
         <source>Backup Wallet</source>
         <translation>Backup Wallet</translation>
     </message>
@@ -721,7 +691,7 @@ Address: %4
         <translation>There was an error trying to save the wallet data to the new location.</translation>
     </message>
     <message numerus="yes">
-        <location line="+76"/>
+        <location line="+68"/>
         <source>%n second(s)</source>
         <translation>
             <numerusform>%n second</numerusform>
@@ -753,14 +723,9 @@ Address: %4
         </translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>Not staking</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. GOODCoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. GOODCoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. GoodCoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. GoodCoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -784,7 +749,13 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+19"/>
         <location line="+32"/>
+        <source>0</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-19"/>
         <source>Bytes:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -794,7 +765,15 @@ Address: %4
         <translation type="unfinished">Amount:</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+19"/>
+        <location line="+80"/>
+        <location line="+86"/>
+        <location line="+38"/>
+        <source>0.00 GOOD</source>
+        <translation type="unfinished">123.456 GOOD {0.00 ?}</translation>
+    </message>
+    <message>
+        <location line="-191"/>
         <source>Priority:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -809,12 +788,13 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+22"/>
         <location filename="../coincontroldialog.cpp" line="+551"/>
         <source>no</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="+51"/>
+        <location line="+29"/>
         <source>After Fee:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1079,8 +1059,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GOODCoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid GOODCoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GoodCoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid GoodCoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1098,8 +1078,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>GOODCoin-Qt</source>
-        <translation>GOODCoin-Qt</translation>
+        <source>GoodCoin-Qt</source>
+        <translation>GoodCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1171,13 +1151,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GOODCoin after logging in to the system.</source>
-        <translation>Automatically start GOODCoin after logging in to the system.</translation>
+        <source>Automatically start GoodCoin after logging in to the system.</source>
+        <translation>Automatically start GoodCoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GOODCoin on system login</source>
-        <translation>&amp;Start GOODCoin on system login</translation>
+        <source>&amp;Start GoodCoin on system login</source>
+        <translation>&amp;Start GoodCoin on system login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1196,8 +1176,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GOODCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the GOODCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the GoodCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the GoodCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1206,8 +1186,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GOODCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the GOODCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the GoodCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the GoodCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1281,8 +1261,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GOODCoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting GOODCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GoodCoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting GoodCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1296,8 +1276,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GOODCoin addresses in the transaction list or not.</source>
-        <translation>Whether to show GOODCoin addresses in the transaction list or not.</translation>
+        <source>Whether to show GoodCoin addresses in the transaction list or not.</source>
+        <translation>Whether to show GoodCoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1343,8 +1323,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GOODCoin.</source>
-        <translation>This setting will take effect after restarting GOODCoin.</translation>
+        <source>This setting will take effect after restarting GoodCoin.</source>
+        <translation>This setting will take effect after restarting GoodCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1361,17 +1341,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+33"/>
-        <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GOODCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the GOODCoin network after a connection is established, but this process has not completed yet.</translation>
+        <location line="+212"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GoodCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the GoodCoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
-        <location line="-160"/>
+        <location line="-170"/>
+        <source>Balance:</source>
+        <translation>Balance:</translation>
+    </message>
+    <message>
+        <location line="+29"/>
         <source>Stake:</source>
         <translation>Stake:</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+84"/>
+        <source>Number of transactions:</source>
+        <translation>Number of transactions:</translation>
+    </message>
+    <message>
+        <location line="-55"/>
         <source>Unconfirmed:</source>
         <translation>Unconfirmed:</translation>
     </message>
@@ -1381,17 +1371,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Wallet</translation>
     </message>
     <message>
-        <location line="+49"/>
-        <source>Spendable:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Your current spendable balance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+71"/>
+        <location line="+136"/>
         <source>Immature:</source>
         <translation>Immature:</translation>
     </message>
@@ -1401,22 +1381,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Mined balance that has not yet matured</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Total:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Your current total balance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+46"/>
+        <location line="+63"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation>&lt;b&gt;Recent transactions&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-108"/>
+        <location line="-147"/>
+        <source>Your current balance</source>
+        <translation>Your current balance</translation>
+    </message>
+    <message>
+        <location line="+58"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
         <translation>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</translation>
     </message>
@@ -1426,10 +1401,46 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Total of coins that was staked, and do not yet count toward the current balance</translation>
     </message>
     <message>
+        <location line="+75"/>
+        <source>Total number of transactions in wallet</source>
+        <translation>Total number of transactions in wallet</translation>
+    </message>
+    <message>
         <location filename="../overviewpage.cpp" line="+113"/>
         <location line="+1"/>
         <source>out of sync</source>
         <translation>out of sync</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation type="vanished">
+            <numerusform>%n second</numerusform>
+            <numerusform>%n seconds</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation type="vanished">
+            <numerusform>%n minute</numerusform>
+            <numerusform>%n minutes</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation type="vanished">
+            <numerusform>%n hour</numerusform>
+            <numerusform>%n hours</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation type="vanished">
+            <numerusform>%n day</numerusform>
+            <numerusform>%n days</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -1578,8 +1589,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GOODCoin-Qt help message to get a list with possible GOODCoin command-line options.</source>
-        <translation>Show the GOODCoin-Qt help message to get a list with possible GOODCoin command-line options.</translation>
+        <source>Show the GoodCoin-Qt help message to get a list with possible GoodCoin command-line options.</source>
+        <translation>Show the GoodCoin-Qt help message to get a list with possible GoodCoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1598,13 +1609,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>GOODCoin - Debug window</source>
-        <translation>GOODCoin - Debug window</translation>
+        <source>GoodCoin - Debug window</source>
+        <translation>GoodCoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GOODCoin Core</source>
-        <translation>GOODCoin Core</translation>
+        <source>GoodCoin Core</source>
+        <translation>GoodCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1613,8 +1624,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GOODCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the GOODCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the GoodCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the GoodCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1623,8 +1634,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the GOODCoin RPC console.</source>
-        <translation>Welcome to the GOODCoin RPC console.</translation>
+        <source>Welcome to the GoodCoin RPC console.</source>
+        <translation>Welcome to the GoodCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1782,8 +1793,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a GOODCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a GOODCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GoodCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a GoodCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1882,7 +1893,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid GOODCoin address</source>
+        <source>WARNING: Invalid GoodCoin address</source>
         <translation></translation>
     </message>
     <message>
@@ -1956,8 +1967,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GOODCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a GOODCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GoodCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a GoodCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2017,8 +2028,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GOODCoin address</source>
-        <translation>Sign the message to prove you own this GOODCoin address</translation>
+        <source>Sign the message to prove you own this GoodCoin address</source>
+        <translation>Sign the message to prove you own this GoodCoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2049,8 +2060,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GOODCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified GOODCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified GoodCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified GoodCoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2060,8 +2071,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GOODCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a GOODCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a GoodCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a GoodCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2070,8 +2081,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GOODCoin signature</source>
-        <translation>Enter GOODCoin signature</translation>
+        <source>Enter GoodCoin signature</source>
+        <translation>Enter GoodCoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2288,6 +2299,10 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Generated coins must mature 510 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
     </message>
     <message>
+        <source>Staked coins must wait 510 blocks before they can return to balance and be spent.  When you generated this proof-of-stake block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to \&quot;not accepted\&quot; and not be a valid stake.  This may occasionally happen if another node generates a proof-of-stake block within a few seconds of yours.</source>
+        <translation type="obsolete">Staked coins must wait 510 blocks before they can return to balance and be spent.  When you generated this proof-of-stake block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to \&quot;not accepted\&quot; and not be a valid stake.  This may occasionally happen if another node generates a proof-of-stake block within a few seconds of yours.</translation>
+    </message>
+    <message>
         <location line="+7"/>
         <source>Debug information</source>
         <translation>Debug information</translation>
@@ -2363,15 +2378,37 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>Amount</source>
         <translation>Amount</translation>
     </message>
+    <message numerus="yes">
+        <source>Open for %n block(s)</source>
+        <translation type="vanished">
+            <numerusform>Open for %n block</numerusform>
+            <numerusform>Open for %n blocks</numerusform>
+        </translation>
+    </message>
     <message>
         <location line="+60"/>
         <source>Open until %1</source>
         <translation>Open until %1</translation>
     </message>
     <message>
+        <source>Offline (%1 confirmations)</source>
+        <translation type="vanished">Offline (%1 confirmations)</translation>
+    </message>
+    <message>
+        <source>Unconfirmed (%1 of %2 confirmations)</source>
+        <translation type="vanished">Unconfirmed (%1 of %2 confirmations)</translation>
+    </message>
+    <message>
         <location line="+12"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Confirmed (%1 confirmations)</translation>
+    </message>
+    <message numerus="yes">
+        <source>Mined balance will be available when it matures in %n more block(s)</source>
+        <translation type="vanished">
+            <numerusform>Mined balance will be available when it matures in %n more block</numerusform>
+            <numerusform>Mined balance will be available when it matures in %n more blocks</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="-15"/>
@@ -2652,9 +2689,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>GOODCoin version</source>
-        <translation>GOODCoin version</translation>
+        <location filename="../bitcoinstrings.cpp" line="+29"/>
+        <source>GoodCoin version</source>
+        <translation>GoodCoin version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2702,7 +2739,19 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Specify data directory</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-30"/>
+        <source>%s, you must set a rpcpassword in the configuration file:
+ %s
+It is recommended you use the following random password:
+rpcuser=GOODcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+If the file does not exist, create it with owner-readable-only file permissions.
+</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+32"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>Set database cache size in megabytes (default: 25)</translation>
     </message>
@@ -2742,7 +2791,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+2"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Threshold for disconnecting misbehaving peers (default: 100)</translation>
     </message>
@@ -2752,17 +2801,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</translation>
     </message>
     <message>
-        <location line="-44"/>
+        <location line="-41"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+48"/>
         <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
         <translation>Detach block and address databases. Increases shutdown time (default: 0)</translation>
     </message>
     <message>
-        <location line="+109"/>
+        <location line="+107"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation></translation>
     </message>
@@ -2772,7 +2821,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation></translation>
     </message>
     <message>
-        <location line="-87"/>
+        <location line="-2"/>
+        <source>Error: Wallet unlocked for block minting only, unable to create transaction.</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="-83"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7556 or testnet: 7555)</source>
         <translation></translation>
     </message>
@@ -2782,14 +2836,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Accept command line and JSON-RPC commands</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+99"/>
         <source>Error: Transaction creation failed  </source>
         <translation></translation>
     </message>
     <message>
-        <location line="-5"/>
+        <location line="-6"/>
         <source>Error: Wallet locked, unable to create transaction  </source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Find peers using DNS lookup (default: 0)</source>
+        <translation type="obsolete">Find peers using DNS lookup (default: 1) {0)?}</translation>
     </message>
     <message>
         <location line="-8"/>
@@ -2802,7 +2860,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation></translation>
     </message>
     <message>
-        <location line="-88"/>
+        <location line="-85"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Run in the background as a daemon and accept commands</translation>
     </message>
@@ -2812,7 +2870,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Use the test network</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-21"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
     </message>
@@ -2822,7 +2880,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation></translation>
     </message>
     <message>
-        <location line="+117"/>
+        <location line="+111"/>
         <source>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</source>
         <translation></translation>
     </message>
@@ -2837,12 +2895,16 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GOODCoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GOODCoin will not work properly.</translation>
+        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="obsolete">Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</translation>
     </message>
     <message>
-        <location line="-31"/>
+        <location line="+62"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GoodCoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GoodCoin will not work properly.</translation>
+    </message>
+    <message>
+        <location line="-32"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
     </message>
@@ -2862,7 +2924,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Block creation options:</translation>
     </message>
     <message>
-        <location line="-62"/>
+        <location line="-56"/>
         <source>Connect only to the specified node(s)</source>
         <translation>Connect only to the specified node(s)</translation>
     </message>
@@ -2872,22 +2934,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Discover own IP address (default: 1 when listening and no -externalip)</translation>
     </message>
     <message>
-        <location line="+94"/>
+        <location line="+88"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
     </message>
     <message>
-        <location line="-90"/>
+        <location line="-84"/>
         <source>Find peers using DNS lookup (default: 1)</source>
         <translation>Find peers using DNS lookup (default: 1)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+2"/>
         <source>Sync checkpoints policy (default: strict)</source>
         <translation>Sync checkpoints policy (default: strict)</translation>
     </message>
     <message>
-        <location line="+83"/>
+        <location line="+80"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation>Invalid -tor address: &apos;%s&apos;</translation>
     </message>
@@ -2897,7 +2959,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation></translation>
     </message>
     <message>
-        <location line="-82"/>
+        <location line="-79"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</translation>
     </message>
@@ -2907,12 +2969,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-13"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+25"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
         <translation>Output extra debugging information. Implies all other -debug* options</translation>
     </message>
@@ -2927,17 +2989,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Prepend debug output with timestamp</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+32"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
-        <location line="-74"/>
+        <location line="-68"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Select the version of socks proxy to use (4-5, default: 5)</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+38"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Send trace/debug info to console instead of debug.log file</translation>
     </message>
@@ -2947,7 +3009,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Send trace/debug info to debugger</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+25"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
         <translation>Set maximum block size in bytes (default: 250000)</translation>
     </message>
@@ -2957,23 +3019,23 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Set minimum block size in bytes (default: 0)</translation>
     </message>
     <message>
-        <location line="-29"/>
+        <location line="-26"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Shrink debug.log file on client startup (default: 1 when no -debug)</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-39"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Specify connection timeout in milliseconds (default: 5000)</translation>
     </message>
     <message>
-        <location line="+109"/>
+        <location line="+103"/>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
         <translation></translation>
     </message>
     <message>
-        <location line="-80"/>
+        <location line="-77"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Use UPnP to map the listening port (default: 0)</translation>
     </message>
@@ -2983,22 +3045,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Use UPnP to map the listening port (default: 1 when listening)</translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="-22"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
         <translation>Use proxy to reach tor hidden services (default: same as -proxy)</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+39"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Username for JSON-RPC connections</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+44"/>
         <source>Verifying database integrity...</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+58"/>
         <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
         <translation></translation>
     </message>
@@ -3013,42 +3075,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Warning: This version is obsolete, upgrade required!</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-49"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-54"/>
+        <location line="-51"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Password for JSON-RPC connections</translation>
     </message>
     <message>
-        <location line="-84"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
- %s
-It is recommended you use the following random password:
-rpcuser=GOODcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GOODCoin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+51"/>
-        <source>Find peers using internet relay chat (default: 0)</source>
-        <translation type="unfinished">Find peers using internet relay chat (default: 1) {0)?}</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="-13"/>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
         <translation></translation>
     </message>
@@ -3084,11 +3121,6 @@ for example: alertnotify=echo %%s | mail -s &quot;GOODCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+2"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Upgrade wallet to latest format</source>
         <translation>Upgrade wallet to latest format</translation>
     </message>
@@ -3138,42 +3170,37 @@ for example: alertnotify=echo %%s | mail -s &quot;GOODCoin Alert&quot; admin@foo
         <translation>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <location line="+53"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+18"/>
+        <location line="+72"/>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-158"/>
+        <location line="-153"/>
         <source>This help message</source>
         <translation>This help message</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="+89"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation>Wallet %s resides outside data directory %s.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  GOODCoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s.  GOODCoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s.  GoodCoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s.  GoodCoin is probably already running.</translation>
     </message>
     <message>
-        <location line="-98"/>
-        <source>GOODCoin</source>
-        <translation>GOODCoin</translation>
+        <location line="-92"/>
+        <source>GoodCoin</source>
+        <translation>GoodCoin</translation>
     </message>
     <message>
-        <location line="+140"/>
+        <location line="+134"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Unable to bind to %s on this computer (bind returned error %d, %s)</translation>
     </message>
     <message>
-        <location line="-130"/>
+        <location line="-124"/>
         <source>Connect through socks proxy</source>
         <translation>Connect through socks proxy</translation>
     </message>
@@ -3183,7 +3210,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOODCoin Alert&quot; admin@foo
         <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
     </message>
     <message>
-        <location line="+122"/>
+        <location line="+116"/>
         <source>Loading addresses...</source>
         <translation>Loading addresses...</translation>
     </message>
@@ -3199,13 +3226,13 @@ for example: alertnotify=echo %%s | mail -s &quot;GOODCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GOODCoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of GOODCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GoodCoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of GoodCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GOODCoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart GOODCoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart GoodCoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart GoodCoin to complete</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3248,7 +3275,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOODCoin Alert&quot; admin@foo
         <translation>Error: could not start node</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>Sending...</source>
         <translation>Sending...</translation>
     </message>
@@ -3263,27 +3290,32 @@ for example: alertnotify=echo %%s | mail -s &quot;GOODCoin Alert&quot; admin@foo
         <translation>Insufficient funds</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-35"/>
         <source>Loading block index...</source>
         <translation>Loading block index...</translation>
     </message>
     <message>
-        <location line="-103"/>
+        <location line="-97"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Add a node to connect to and attempt to keep the connection open</translation>
     </message>
     <message>
-        <location line="+122"/>
-        <source>Unable to bind to %s on this computer. GOODCoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. GOODCoin is probably already running.</translation>
+        <location line="+116"/>
+        <source>Unable to bind to %s on this computer. GoodCoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. GoodCoin is probably already running.</translation>
     </message>
     <message>
-        <location line="-97"/>
+        <location line="-110"/>
+        <source>Find peers using internet relay chat (default: 1)</source>
+        <translation>Find peers using internet relay chat (default: 1)</translation>
+    </message>
+    <message>
+        <location line="+16"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>Fee per KB to add to transactions you send</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+52"/>
         <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation></translation>
     </message>
@@ -3318,12 +3350,30 @@ for example: alertnotify=echo %%s | mail -s &quot;GOODCoin Alert&quot; admin@foo
         <translation>Done loading</translation>
     </message>
     <message>
-        <location line="-167"/>
+        <location line="-157"/>
         <source>To use the %s option</source>
         <translation>To use the %s option</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>%s, you must set a rpcpassword in the configuration file:
+ %s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+If the file does not exist, create it with owner-readable-only file permissions.
+</source>
+        <translation type="vanished">%s, you must set a rpcpassword in the configuration file:
+ %s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+If the file does not exist, create it with owner-readable-only file permissions.
+</translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>

@@ -260,7 +260,7 @@ deriveIntegerGroupParams(uint256 seed, uint32_t pLen, uint32_t qLen)
 	result.g = calculateGroupGenerator(seed, pSeed, qSeed, result.modulus, result.groupOrder, 1);
 	result.h = calculateGroupGenerator(seed, pSeed, qSeed, result.modulus, result.groupOrder, 2);
 
-	// Perform some basic tests to make sure we have good parameters
+	// Perform some basic tests to make sure we have GOOD parameters
 	if ((uint32_t)(result.modulus.bitSize()) < pLen ||          // modulus is pLen bits long
 	        (uint32_t)(result.groupOrder.bitSize()) < qLen ||       // order is qLen bits long
 	        !(result.modulus.isPrime()) ||                          // modulus is prime
@@ -315,7 +315,7 @@ deriveIntegerGroupFromOrder(Bignum &groupOrder)
 			result.g = calculateGroupGenerator(seed, pSeed, qSeed, result.modulus, result.groupOrder, 1);
 			result.h = calculateGroupGenerator(seed, pSeed, qSeed, result.modulus, result.groupOrder, 2);
 
-			// Perform some basic tests to make sure we have good parameters
+			// Perform some basic tests to make sure we have GOOD parameters
 			if (!(result.modulus.isPrime()) ||                          // modulus is prime
 			        !(result.groupOrder.isPrime()) ||                       // order is prime
 			        !((result.g.pow_mod(result.groupOrder, result.modulus)).isOne()) || // g^order mod modulus = 1

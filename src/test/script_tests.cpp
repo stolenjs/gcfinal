@@ -249,13 +249,13 @@ BOOST_AUTO_TEST_CASE(script_CHECKMULTISIG12)
     txTo12.vin[0].prevout.hash = txFrom12.GetHash();
     txTo12.vout[0].nValue = 1;
 
-    CScript goodsig1 = sign_multisig(scriptPubKey12, key1, txTo12);
-    BOOST_CHECK(VerifyScript(goodsig1, scriptPubKey12, txTo12, 0, true, 0));
+    CScript GOODsig1 = sign_multisig(scriptPubKey12, key1, txTo12);
+    BOOST_CHECK(VerifyScript(GOODsig1, scriptPubKey12, txTo12, 0, true, 0));
     txTo12.vout[0].nValue = 2;
-    BOOST_CHECK(!VerifyScript(goodsig1, scriptPubKey12, txTo12, 0, true, 0));
+    BOOST_CHECK(!VerifyScript(GOODsig1, scriptPubKey12, txTo12, 0, true, 0));
 
-    CScript goodsig2 = sign_multisig(scriptPubKey12, key2, txTo12);
-    BOOST_CHECK(VerifyScript(goodsig2, scriptPubKey12, txTo12, 0, true, 0));
+    CScript GOODsig2 = sign_multisig(scriptPubKey12, key2, txTo12);
+    BOOST_CHECK(VerifyScript(GOODsig2, scriptPubKey12, txTo12, 0, true, 0));
 
     CScript badsig1 = sign_multisig(scriptPubKey12, key3, txTo12);
     BOOST_CHECK(!VerifyScript(badsig1, scriptPubKey12, txTo12, 0, true, 0));
@@ -285,18 +285,18 @@ BOOST_AUTO_TEST_CASE(script_CHECKMULTISIG23)
 
     std::vector<CKey> keys;
     keys.push_back(key1); keys.push_back(key2);
-    CScript goodsig1 = sign_multisig(scriptPubKey23, keys, txTo23);
-    BOOST_CHECK(VerifyScript(goodsig1, scriptPubKey23, txTo23, 0, true, 0));
+    CScript GOODsig1 = sign_multisig(scriptPubKey23, keys, txTo23);
+    BOOST_CHECK(VerifyScript(GOODsig1, scriptPubKey23, txTo23, 0, true, 0));
 
     keys.clear();
     keys.push_back(key1); keys.push_back(key3);
-    CScript goodsig2 = sign_multisig(scriptPubKey23, keys, txTo23);
-    BOOST_CHECK(VerifyScript(goodsig2, scriptPubKey23, txTo23, 0, true, 0));
+    CScript GOODsig2 = sign_multisig(scriptPubKey23, keys, txTo23);
+    BOOST_CHECK(VerifyScript(GOODsig2, scriptPubKey23, txTo23, 0, true, 0));
 
     keys.clear();
     keys.push_back(key2); keys.push_back(key3);
-    CScript goodsig3 = sign_multisig(scriptPubKey23, keys, txTo23);
-    BOOST_CHECK(VerifyScript(goodsig3, scriptPubKey23, txTo23, 0, true, 0));
+    CScript GOODsig3 = sign_multisig(scriptPubKey23, keys, txTo23);
+    BOOST_CHECK(VerifyScript(GOODsig3, scriptPubKey23, txTo23, 0, true, 0));
 
     keys.clear();
     keys.push_back(key2); keys.push_back(key2); // Can't re-use sig

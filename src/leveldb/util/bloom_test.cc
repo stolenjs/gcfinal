@@ -117,7 +117,7 @@ TEST(BloomTest, VaryingLengths) {
 
   // Count number of filters that significantly exceed the false positive rate
   int mediocre_filters = 0;
-  int good_filters = 0;
+  int GOOD_filters = 0;
 
   for (int length = 1; length <= 10000; length = NextLength(length)) {
     Reset();
@@ -143,13 +143,13 @@ TEST(BloomTest, VaryingLengths) {
     }
     ASSERT_LE(rate, 0.02);   // Must not be over 2%
     if (rate > 0.0125) mediocre_filters++;  // Allowed, but not too often
-    else good_filters++;
+    else GOOD_filters++;
   }
   if (kVerbose >= 1) {
-    fprintf(stderr, "Filters: %d good, %d mediocre\n",
-            good_filters, mediocre_filters);
+    fprintf(stderr, "Filters: %d GOOD, %d mediocre\n",
+            GOOD_filters, mediocre_filters);
   }
-  ASSERT_LE(mediocre_filters, good_filters/5);
+  ASSERT_LE(mediocre_filters, GOOD_filters/5);
 }
 
 // Different bits-per-byte

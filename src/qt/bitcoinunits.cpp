@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("GOODCoins");
-    case mBTC: return QString("Milli-GOODCoins (1 / 1,000)");
-    case uBTC: return QString("Micro-GOODCoins (1 / 1,000,000)");
+    case BTC: return QString("GoodCoins");
+    case mBTC: return QString("Milli-GoodCoins (1 / 1,000)");
+    case uBTC: return QString("Micro-GoodCoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }

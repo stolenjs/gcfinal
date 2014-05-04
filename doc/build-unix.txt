@@ -16,7 +16,7 @@ To Build
 cd src/
 make -f makefile.unix            # Headless GOODcoin
 
-See readme-qt.rst for instructions on building GOODCoin QT,
+See readme-qt.rst for instructions on building GoodCoin QT,
 the graphical GOODcoin.
 
 Dependencies
@@ -73,7 +73,7 @@ If using Boost 1.37, append -mt to the boost libraries in the makefile.
 Dependency Build Instructions: Gentoo
 -------------------------------------
 
-Note: If you just want to install GOODcoind on Gentoo, you can add the GOODCoin
+Note: If you just want to install GOODcoind on Gentoo, you can add the GoodCoin
       overlay and use your package manager:
           layman -a GOODcoin && emerge GOODcoind
 
