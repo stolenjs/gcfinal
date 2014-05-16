@@ -2,7 +2,10 @@ GoodCoin official development tree
 
 GoodCoin is a Pow/PoS-based cryptocurrency based on blackcoin and ppcoin.
 
-
+1.0.2
+================
+-New wallet design
+-fixed reward display amounts
 
 1.0.1
 ================
